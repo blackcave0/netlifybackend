@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 8000
 // -- CORS METHOD ---
 const cors = require('cors');
 const corsOption = {
-  origin : 'http://localhost:5173',
-  // origin : 'https://s2m.netlify.app/',
+  // origin : 'http://localhost:5173',
+  origin : 'https://s3m.netlify.app/',
   methods : "GET, POST, PUT, DELETE, PATCH, HEAD",
   optionsSuccessStatus: 200,
   credential : true,
